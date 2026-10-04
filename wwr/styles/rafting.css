@@ -197,3 +197,168 @@ footer p {
     height: 35px;
     margin: 0;
 }
+
+/* CONTACT PAGE */
+
+.contact-info {
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.contact-info h1 {
+    position: static;
+    width: auto;
+    padding: 0;
+    margin-bottom: 5px;
+    background-color: transparent;
+    color: var(--primary-color);
+    opacity: 1;
+    text-align: center;
+}
+
+.contact-info p {
+    margin: 0;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 35px;
+    padding: 10px 20px 20px;
+    align-items: start;
+}
+
+.map-container {
+    width: 100%;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    display: block;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-row label,
+.message-field label {
+    font-weight: bold;
+}
+
+.form-row input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #555;
+    border-radius: 3px;
+}
+
+.contact-form fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact-form legend {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.contact-form fieldset label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact-form input[type="radio"] {
+    margin-right: 6px;
+}
+
+.message-field {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    gap: 10px;
+    align-items: start;
+}
+
+.message-field textarea {
+    width: 100%;
+    min-height: 90px;
+    padding: 8px;
+    resize: vertical;
+    border: 1px solid #555;
+    border-radius: 3px;
+    font-family: var(--body-font);
+}
+
+.newsletter {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 14px;
+}
+
+.newsletter input {
+    margin: 0;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #555;
+    border-radius: 4px;
+    background-color: var(--secondary-color);
+    color: var(--accent1-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* EMPLOYEES */
+
+.employees {
+    border: 1px solid #555;
+    padding: 10px 20px 20px;
+    margin: 0 10px 10px;
+}
+
+.employees h2 {
+    margin-bottom: 15px;
+}
+
+.employee-gallery {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.employee-gallery figure {
+    flex: 1;
+    text-align: center;
+}
+
+.employee-gallery img {
+    width: 130px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 5px;
+}
+
+.employee-gallery figcaption {
+    font-weight: bold;
+}
